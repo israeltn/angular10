@@ -16,8 +16,7 @@ import { NgbAlertModule, NgbModule, NgbPaginationModule } from '@ng-bootstrap/ng
     ContactFormComponent,
     SignupFormComponent,
     LoginComponent,
-    NgbPaginationModule, 
-    NgbAlertModule
+   
 
   ],
   imports: [
@@ -25,7 +24,8 @@ import { NgbAlertModule, NgbModule, NgbPaginationModule } from '@ng-bootstrap/ng
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    [NgbPaginationModule, NgbAlertModule],
   ],
   providers: [],
   bootstrap: [AppComponent]
